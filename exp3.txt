@@ -24,12 +24,10 @@ class Student {
         System.out.println("Register Number: " + regNo);
         System.out.println("Marks: " + marks);
     }
-}
 
-public class Exp3URK23ME6001 {
     public static void main(String[] args) {
-        Student s1 = new Student(); // Object creation
-        s1.getDetails();           // Method call
+        Student s1 = new Student();
+        s1.getDetails();
         s1.displayDetails();
     }
 }
